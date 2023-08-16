@@ -5,12 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        'JakartaSans': ['Plus Jakarta Sans','Helvetica', 'Arial', 'sans-serif'],
-        'Roboto':['Roboto', 'sans-serif']
-      }
+    colors:{
+      textblue:'#00B4D5',
+      black:'#21222A',
+      white:'#fff',
+      black2:'#282D35'
     },
+    extend: {},
   },
   plugins: [],
 }
